@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando el total</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card-img">
+            <img src="assets/img/img1.png" alt="PC">
+            
+        </div>
+        <div class="card-body">
+            <p>iMac Core i5 512GB</p>
+            <input type="number" min="0" id="cantidad" placeholder="Cantidad"> <br>
+            <input type="text" id="color" placeholder="Color">
+            <h4>Precio: <span id="precio">1200000</span> </h4>
+        </div>
+        <div class="card-button">
+            <button onclick="{calcular()}">Calcular Total</button>
+        </div>
+    </div>
+    <div class="detalle">
+        <p>Total: <span id="detalle-total"> $0</span></p>
+        <p>Cantidad: <span id="detalle-cantidad"> 0 </span></p>
+        <p>Color: <span id="detalle-color"></span></p>
+    </div>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
